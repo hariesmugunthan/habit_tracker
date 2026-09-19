@@ -2,13 +2,18 @@
 
 A Flutter-based Habit Tracker application built as part of a day-by-day Flutter development challenge.
 
-Day 1 focuses on building the foundation of the application, creating a clean UI structure, and implementing the basic habit-tracking functionality.
+##  What I Learned
 
-## 📱 Day 1 Preview
+- Flutter project structure
+- Stateful and Stateless Widgets
+- `setState()` and state management
+- `build()` method and UI rebuilding
+- Creating reusable model classes
+- Working with `List<Habit>`
 
 
 
-## 🚀 Features
+##  Features
 
 - Today's Habits dashboard
 - Dynamic habit list
@@ -23,7 +28,7 @@ Day 1 focuses on building the foundation of the application, creating a clean UI
 - Deadline and People sections
 - Mobile-style UI layout
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```text
 lib/
@@ -34,3 +39,4 @@ lib/
 │
 └── screens/
     └── home_page.dart
+    
