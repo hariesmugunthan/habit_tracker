@@ -1,4 +1,4 @@
-# Habit Tracker - Day 2
+# Habit Tracker - Day 3
 
 ## Overview
 Day 3 focuses on refining the code readibility and make the Habit Tracker UI to better match the reference design.
