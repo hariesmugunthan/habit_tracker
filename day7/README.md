@@ -25,6 +25,9 @@ Then your final README can have:
 ### Project Structure
 
 
+### Project Structure
+
+
 habit_tracker/
 │
 ├── day0/
@@ -37,28 +40,33 @@ habit_tracker/
 └── day7/
     │
     ├── lib/
-    │   ├── main.dart
+    │   ├── models/
+    │   │   └── habit.dart
     │   │
-    │   └── widgets/
-    │       ├── add_habit_button.dart
-    │       ├── choose_duration_icon.dart
-    │       ├── custom_bottom_nav_bar.dart
-    │       ├── daily_progress_card.dart
-    │       ├── deadline_card.dart
-    │       ├── habit_card.dart
-    │       ├── habit_icon_section.dart
-    │       ├── habit_name_section.dart
-    │       ├── header_section.dart
-    │       ├── new_habit_header.dart
-    │       ├── people_card.dart
-    │       └── reminder_time.dart
+    │   ├── screens/
+    │   │   ├── home_page.dart
+    │   │   └── new_habit_page.dart
+    │   │
+    │   ├── widgets/
+    │   │   ├── add_habit_button.dart
+    │   │   ├── choose_duration_icon.dart
+    │   │   ├── custom_bottom_nav_bar.dart
+    │   │   ├── daily_progress_card.dart
+    │   │   ├── deadline_card.dart
+    │   │   ├── habit_card.dart
+    │   │   ├── habit_icon_section.dart
+    │   │   ├── habit_name_section.dart
+    │   │   ├── header_section.dart
+    │   │   ├── new_habit_header.dart
+    │   │   ├── people_card.dart
+    │   │   └── reminder_time.dart
+    │   │
+    │   └── main.dart
     │
     ├── assets/
-    │
     └── pubspec.yaml
-
 
 ### Final Status
 The 7-day Flutter UI development challenge has been completed.
 
-The project was developed step-by-step from **Day 0 to Day 7**, with each day building upon the previous implementation while keeping the code organized, readable, and maintainable.
+The project was developed step-by-step from **Day 0 to Day 7**, with each day building upon the previous implementation while keeping the code organized, readable, and maintainable...
